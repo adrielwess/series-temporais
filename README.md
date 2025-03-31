@@ -21,7 +21,7 @@ A Figura 1 revela uma leve tendência ao longo dos anos e uma notável sazonalid
 A Figura 2 detalha o efeito da sazonalidade na série de mortalidade, com um padrão repetitivo anualmente, incluindo alguns picos mais acentuados.
   
 *Figura 2: Série temporal de mortalidade semanal para o período de 1987 a 1990,
-destacando a sazonalidade. *
+destacando a sazonalidade.*
 ![Gráfico de Séries Temporais](RPLOT.1.png)
  *Fonte: Autor*
 
@@ -54,7 +54,7 @@ F-statistic: 195.7 on 5 and 712 DF,  p-value: < 2.2e-16
 • Componentes Sazonais: COS1 (39.34) e SIN1 (22.03) → Representam a primeira harmônica da sazonalidade. COS2 (4.64) e SIN2 (6.71) → Representam a segunda harmônica. Todos os termos sazonais são significativos, confirmando que há padrões periódicos relevantes na série temporal.
 
 A análise dos resíduos do modelo, mostrada na Figura 3, indica não haver padrão nos resíduos, sugerindo serem independentes.
-*Figura 3: Resíduos do Modelo de Regressão Harmônica. *
+*Figura 3: Resíduos do Modelo de Regressão Harmônica.*
 ![Gráfico de Séries Temporais](RPLOT.4.png)
  *Fonte: Autor*
 
@@ -62,7 +62,7 @@ A análise dos resíduos do modelo, mostrada na Figura 3, indica não haver padr
 
 Na Figura 4 pode-se observar os valores observados contra preditos, alguns valores ficaram bem próximos dos valores reais, porém alguns ficaram longes distantes.
 
-*Figura 4: Comparação entre Valores Reais e Previstos. *
+*Figura 4: Comparação entre Valores Reais e Previstos.* 
 ![Gráfico de Séries Temporais](RPLOT.3.png)
  *Fonte: Autor*
 
