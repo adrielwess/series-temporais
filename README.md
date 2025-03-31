@@ -11,12 +11,53 @@ O objetivo deste estudo é modelar uma série temporal de mortalidade de pessoas
 
 *Figura 1: Série temporal de mortalidade semanal de pessoas com mais de 75 anos
 em Chicago (1987-2000).*
+
 ![Gráfico de Séries Temporais](RPLOT.1.png)
+
 *Fonte: Autor*
 
 A Figura 1 revela uma leve tendência ao longo dos anos e uma notável sazonalidade anual. Observa-se um padrão de diminuição das mortes na metade do ano e um aumento no final e início do ano.
 
 A Figura 2 detalha o efeito da sazonalidade na série de mortalidade, com um padrão repetitivo anualmente, incluindo alguns picos mais acentuados.
   
-*Figura 2: Gráfico de Séries Temporais. Fonte: Autor *
+*Figura 2: Série temporal de mortalidade semanal para o período de 1987 a 1990,
+destacando a sazonalidade. *
 ![Gráfico de Séries Temporais](RPLOT.1.png)
+ *Fonte: Autor*
+
+Dado que a série temporal apresenta um ciclo anual, o modelo de regressão
+harmônica foi escolhido.
+
+## 📊 Resultados da Modelagem
+
+```r
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 3.752e+02  2.273e+00 165.092  < 2e-16 ***
+semana      7.564e-02  5.478e-03  13.808  < 2e-16 ***
+COS1        3.934e+01  1.609e+00  24.448  < 2e-16 ***
+SIN1        2.203e+01  1.601e+00  13.759  < 2e-16 ***
+COS2        4.642e+00  1.602e+00   2.897  0.00388 ** 
+SIN2        6.709e+00  1.606e+00   4.177 3.31e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 30.39 on 712 degrees of freedom
+Multiple R-squared:  0.5788, Adjusted R-squared:  0.5759 
+F-statistic: 195.7 on 5 and 712 DF,  p-value: < 2.2e-16
+```
+
+• Intercepto: O coeficiente é 375,3 com uma estatística t de 2,241 e um p-valor inferior a 2 × 10−16, indicando que é estatisticamente significativo e sugere um valor base considerável para a variável dependente.
+
+• Variável t: O coeficiente é 0,075 com uma estatística t de 0,005 e um p-valor inferior a 2 × 10−16. Isso indica uma tendência linear significativa ao longo do tempo.
+
+• Componentes Sazonais: COS1 (39.34) e SIN1 (22.03) → Representam a primeira harmônica da sazonalidade. COS2 (4.64) e SIN2 (6.71) → Representam a segunda harmônica. Todos os termos sazonais são significativos, confirmando que há padrões periódicos relevantes na série temporal.
+
+A análise dos resíduos do modelo, mostrada na Figura 4, indica não haver padrão nos resíduos, sugerindo serem independentes.
+
+
+
+
+
+
+
