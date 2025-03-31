@@ -9,14 +9,14 @@ O objetivo deste estudo é modelar uma série temporal de mortalidade de pessoas
 ## 🔍 Metodologia
 1. **Exploração inicial**: Visualizações
 
-![Gráfico de Séries Temporais](img/grafico.png)
-
-*Figura 1: Gráfico de Séries Temporais. Fonte: [Nome da Fonte]*
-
+*Figura 1: Série temporal de mortalidade semanal de pessoas com mais de 75 anos
+em Chicago (1987-2000).*
 ![Gráfico de Séries Temporais](RPLOT.1.png)
+*Fonte: Autor*
 
 A Figura 1 revela uma leve tendência ao longo dos anos e uma notável sazonalidade anual. Observa-se um padrão de diminuição das mortes na metade do ano e um aumento no final e início do ano.
 
 A Figura 2 detalha o efeito da sazonalidade na série de mortalidade, com um padrão repetitivo anualmente, incluindo alguns picos mais acentuados.
   
-  ![Gráfico de Séries Temporais](RPLOT.2.png)
+*Figura 2: Gráfico de Séries Temporais. Fonte: Autor *
+![Gráfico de Séries Temporais](RPLOT.1.png)
