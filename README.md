@@ -63,7 +63,7 @@ A análise dos resíduos do modelo, mostrada na Figura 3, indica não haver padr
 Na Figura 4 pode-se observar os valores observados contra preditos, alguns valores ficaram bem próximos dos valores reais, porém alguns ficaram longes distantes.
 
 *Figura 4: Comparação entre Valores Reais e Previstos.* 
-![Gráfico de Séries Temporais](RPLOT.3.png)
+![Gráfico de Séries Temporais](RPLOT.03.png)
  *Fonte: Autor*
 
 ## 📊 Tabela de Comparação
