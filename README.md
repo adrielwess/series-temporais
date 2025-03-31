@@ -53,10 +53,45 @@ F-statistic: 195.7 on 5 and 712 DF,  p-value: < 2.2e-16
 
 • Componentes Sazonais: COS1 (39.34) e SIN1 (22.03) → Representam a primeira harmônica da sazonalidade. COS2 (4.64) e SIN2 (6.71) → Representam a segunda harmônica. Todos os termos sazonais são significativos, confirmando que há padrões periódicos relevantes na série temporal.
 
-A análise dos resíduos do modelo, mostrada na Figura 4, indica não haver padrão nos resíduos, sugerindo serem independentes.
+A análise dos resíduos do modelo, mostrada na Figura 3, indica não haver padrão nos resíduos, sugerindo serem independentes.
+*Figura 3: Resíduos do Modelo de Regressão Harmônica. *
+![Gráfico de Séries Temporais](RPLOT.4.png)
+ *Fonte: Autor*
 
+# Análise de Previsões vs. Valores Reais
 
+Na Figura 4 pode-se observar os valores observados contra preditos, alguns valores ficaram bem próximos dos valores reais, porém alguns ficaram longes distantes.
 
+*Figura 4: Comparação entre Valores Reais e Previstos. *
+![Gráfico de Séries Temporais](RPLOT.3.png)
+ *Fonte: Autor*
+
+## 📊 Tabela de Comparação
+
+| Data       | Real | Previsto | Erro Absoluto |
+|------------|------|----------|--------------|
+| 2000-10-05 | 472  | 420      | 51,79        |
+| 2000-10-12 | 441  | 426      | 15,03        |
+| 2000-10-19 | 429  | 432      | 3,13         |
+| 2000-10-26 | 447  | 438      | 8,44         |
+| 2000-11-02 | 432  | 445      | 13,13        |
+| 2000-11-09 | 427  | 452      | 24,69        |
+| 2000-11-16 | 456  | 458      | 2,05         |
+| 2000-11-23 | 480  | 464      | 15,96        |
+| 2000-11-30 | 463  | 469      | 6,50         |
+| 2000-12-07 | 487  | 474      | 12,74        |
+| 2000-12-14 | 498  | 478      | 19,82        |
+| 2000-12-21 | 491  | 481      | 9,87         |
+
+📈 **Métricas de erro:**  
+- **Erro Absoluto Médio (MAE):** 14,97  
+- **Erro Quadrático Médio (MSE):** 15,33.
+
+---
+📌  Conclusão
+✔️ O modelo capta bem a tendência e a sazonalidade da série.
+✔️ Os coeficientes são altamente significativos.
+⚠️ O R² sugere que há componentes não explicados → testar outras abordagens, como modelos ARIMA ou adição de variáveis externas.
 
 
 
