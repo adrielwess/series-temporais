@@ -7,7 +7,11 @@ RPLOT.1.png
 O objetivo deste estudo é modelar uma série temporal de mortalidade de pessoas com mais de 75 anos na cidade de Chicago, EUA, utilizando dados semanais. A série abrange 731 observações, que representam o total de mortes em cada semana, desde 1987 até 2000. A visualização dessa série pode ser observada na Figura 1:
 
 ## 🔍 Metodologia
-1. **Exploração inicial**: Visualizações e estatísticas descritivas.
+1. **Exploração inicial**: Visualizações
+
+![Gráfico de Séries Temporais](img/grafico.png)
+
+*Figura 1: Gráfico de Séries Temporais. Fonte: [Nome da Fonte]*
 
 ![Gráfico de Séries Temporais](RPLOT.1.png)
 
