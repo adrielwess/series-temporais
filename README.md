@@ -1,5 +1,4 @@
 
-RPLOT.1.png
 
 # Análise de Séries Temporais - Atividade prática da 1° prova
 
