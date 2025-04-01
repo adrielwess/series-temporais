@@ -29,7 +29,7 @@ harmônica foi escolhido.
 
 ## 📊 Resultados da Modelagem
 
-```r
+r
 Coefficients:
              Estimate Std. Error t value Pr(>|t|)    
 (Intercept) 3.752e+02  2.273e+00 165.092  < 2e-16 ***
@@ -44,7 +44,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Residual standard error: 30.39 on 712 degrees of freedom
 Multiple R-squared:  0.5788, Adjusted R-squared:  0.5759 
 F-statistic: 195.7 on 5 and 712 DF,  p-value: < 2.2e-16
-```
+
 
 • Intercepto: O coeficiente é 375,3 com uma estatística t de 2,241 e um p-valor inferior a 2 × 10−16, indicando que é estatisticamente significativo e sugere um valor base considerável para a variável dependente.
 
@@ -91,7 +91,3 @@ Na Figura 4 pode-se observar os valores observados contra preditos, alguns valor
 ✔️ O modelo capta bem a tendência e a sazonalidade da série.
 ✔️ Os coeficientes são altamente significativos.
 ⚠️ O R² sugere que há componentes não explicados → testar outras abordagens, como modelos ARIMA ou adição de variáveis externas.
-
-
-
-
