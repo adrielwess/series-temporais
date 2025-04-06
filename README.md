@@ -21,7 +21,7 @@ A Figura 2 detalha o efeito da sazonalidade na série de mortalidade, com um pad
   
 *Figura 2: Série temporal de mortalidade semanal para o período de 1987 a 1990,
 destacando a sazonalidade.*
-![Gráfico de Séries Temporais](RPLOT.1.png)
+![Gráfico de Séries Temporais](RPLOT.2.png)
  *Fonte: Autor*
 
 Dado que a série temporal apresenta um ciclo anual, o modelo de regressão
