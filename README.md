@@ -11,7 +11,7 @@ O objetivo deste estudo é modelar uma série temporal de mortalidade de pessoas
 *Figura 1: Série temporal de mortalidade semanal de pessoas com mais de 75 anos
 em Chicago (1987-2000).*
 
-![Gráfico de Séries Temporais](\IMAGENS.RPLOT1)
+![Gráfico de Séries Temporais](imagens/RPLOT.1.png)
 
 *Fonte: Autor*
 
