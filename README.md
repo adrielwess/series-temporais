@@ -21,7 +21,7 @@ A Figura 2 detalha o efeito da sazonalidade na série de mortalidade, com um pad
   
 *Figura 2: Série temporal de mortalidade semanal para o período de 1987 a 1990,
 destacando a sazonalidade.*
-![Gráfico de Séries Temporais](RPLOT.2.png)
+![Gráfico de Séries Temporais](imagens/RPLOT.2.png)
  *Fonte: Autor*
 
 Dado que a série temporal apresenta um ciclo anual, o modelo de regressão
@@ -55,7 +55,7 @@ F-statistic: 195.7 on 5 and 712 DF,  p-value: < 2.2e-16
 
 A análise dos resíduos do modelo, mostrada na Figura 3, indica não haver padrão nos resíduos, sugerindo serem independentes.
 *Figura 3: Resíduos do Modelo de Regressão Harmônica.*
-![Gráfico de Séries Temporais](RPLOT.4.png)
+![Gráfico de Séries Temporais](imagens/RPLOT.4.png)
  *Fonte: Autor*
 
 # Análise de Previsões vs. Valores Reais
@@ -63,7 +63,7 @@ A análise dos resíduos do modelo, mostrada na Figura 3, indica não haver padr
 Na Figura 4 pode-se observar os valores observados contra preditos, alguns valores ficaram bem próximos dos valores reais, porém alguns ficaram longes distantes.
 
 *Figura 4: Comparação entre Valores Reais e Previstos.* 
-![Gráfico de Séries Temporais](RPLOT.03.png)
+![Gráfico de Séries Temporais](imagens/RPLOT.03.png)
  *Fonte: Autor*
 
 ## 📊 Tabela de Comparação
